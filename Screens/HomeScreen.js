@@ -24,7 +24,7 @@ const goTo = route => props.navigation.push(route);  // Naviguer vers une vue
         <View style = {styles.conatiner_2}>
           <View style = {styles.title_Container}>
                 <Title content ="Bienvenue" size = "small"/>
-                <Title content ="Vous Rechercher un " size = "medium"/>
+                <Title content ="Vous Rechercher un jouer" size = "medium"/>
           </View>
           <View style ={styles.roundBtnContainer}>
                     <RoundBtn iconame ={`${prefix}-car`} onPress ={() => goTo("Passager")} />
