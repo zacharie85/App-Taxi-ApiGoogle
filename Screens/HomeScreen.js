@@ -19,7 +19,7 @@ const goTo = route => props.navigation.push(route);  // Naviguer vers une vue
     <View style = {styles.container}>
         <Blook>
             <Ionicons name={`${prefix}-car`} style ={styles.icon}/>
-            <Title content ="TAXI APP" size = "big"/>
+            <Title content ="MY CHUM" size = "big"/>
         </Blook>
         <View style = {styles.conatiner_2}>
           <View style = {styles.title_Container}>
